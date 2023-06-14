@@ -35,7 +35,6 @@ export class HttpErrorFilter implements ExceptionFilter {
     const devErrorResponse: any = {
       statusCode,
       success: false,
-      errorName: exception?.name,
       message: message,
       data: {},
     };
