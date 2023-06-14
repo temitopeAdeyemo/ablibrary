@@ -59,7 +59,7 @@ You can test this API with the base url below or clicking [ABLIBRARY BASE URL](h
 
 https://smoggy-elk-trousers.cyclic.app/
 
-For api integration guide, Please use the postman documentation link below
+For api integration guide, Please use the postman documentation link below.
 
 [POSTMAN DOCS](https://documenter.getpostman.com/view/19330071/2s93sgVA71)
 
