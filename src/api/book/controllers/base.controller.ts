@@ -4,6 +4,10 @@ import { Controller, Get } from '@nestjs/common';
 export class BaseController {
   @Get()
   getBaseRoute() {
-    return 'This is the base route';
+    return {
+      statusCode: 200,
+      success: true,
+      message: 'This is the base route',
+    };
   }
 }

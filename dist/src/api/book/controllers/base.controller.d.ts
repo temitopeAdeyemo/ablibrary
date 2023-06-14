@@ -1,3 +1,7 @@
 export declare class BaseController {
-    getBaseRoute(): string;
+    getBaseRoute(): {
+        statusCode: number;
+        success: boolean;
+        message: string;
+    };
 }

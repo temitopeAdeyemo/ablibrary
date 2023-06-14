@@ -13,7 +13,11 @@ exports.BaseController = void 0;
 const common_1 = require("@nestjs/common");
 let BaseController = class BaseController {
     getBaseRoute() {
-        return 'This is the base route';
+        return {
+            statusCode: 200,
+            success: true,
+            message: 'This is the base route',
+        };
     }
 };
 __decorate([
