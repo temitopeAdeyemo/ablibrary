@@ -1,7 +1,9 @@
 {
   "version": 2,
   "env": {
-    "DB_URI": "postgres://default:t7MNanmj2XRS@ep-bitter-sound-389205.us-east-1.postgres.vercel-storage.com:5432/verceldb?sslmode=require"
+    "DB_URI": "postgres://default:t7MNanmj2XRS@ep-bitter-sound-389205.us-east-1.postgres.vercel-storage.com:5432/verceldb?sslmode=require",
+    "PORT": "3007",
+    "NODE_ENV": "development"
   },
   "builds": [
     {
