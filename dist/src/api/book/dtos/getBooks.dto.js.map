@@ -1,0 +1,1 @@
+{"version":3,"file":"getBooks.dto.js","sourceRoot":"","sources":["../../../../../src/api/book/dtos/getBooks.dto.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,qDAAuD;AAEvD,MAAa,WAAW;CAYvB;AAXC;IAAC,IAAA,4BAAU,GAAE;IACZ,IAAA,0BAAQ,GAAE;;0CACW;AAEtB;IAAC,IAAA,4BAAU,GAAE;IACZ,IAAA,0BAAQ,GAAE;;2CACY;AAEvB;IAAC,IAAA,4BAAU,GAAE;IACZ,IAAA,0BAAQ,GAAE;;mDACoB;AAXjC,kCAYC"}
