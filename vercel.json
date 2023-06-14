@@ -1,7 +1,7 @@
 {
   "version": 2,
   "env": {
-    "DB_URI": ""
+    "DB_URI": "postgres://default:t7MNanmj2XRS@ep-bitter-sound-389205.us-east-1.postgres.vercel-storage.com:5432/verceldb?sslmode=require"
   },
   "builds": [
     {
