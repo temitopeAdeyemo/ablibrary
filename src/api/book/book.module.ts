@@ -13,6 +13,7 @@ import { DeleteBookController } from './controllers/deleteBooks.controller';
 import { DeleteBookService } from './services/deleteBook.service';
 import { UpdateBookService } from './services/updateBook.service';
 import { UpdateBookController } from './controllers/updateBooks.controller';
+import { BaseController } from './controllers/base.controller';
 
 @Module({
   imports: [TypeOrmModule.forFeature([Book])],
@@ -22,6 +23,7 @@ import { UpdateBookController } from './controllers/updateBooks.controller';
     FetchBooksController,
     DeleteBookController,
     UpdateBookController,
+    BaseController,
   ],
   providers: [
     BookService,
