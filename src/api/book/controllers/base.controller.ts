@@ -7,7 +7,7 @@ export class BaseController {
     return {
       statusCode: 200,
       success: true,
-      message: 'This is the base route',
+      message: 'Welcome to Ablibrary!',
     };
   }
 }
